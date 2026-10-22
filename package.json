@@ -1,0 +1,26 @@
+{
+  "name": "tripmate-app",
+  "version": "1.0.0",
+  "description": "TripMate – AI-Powered Budget Travel Planner",
+  "main": "backend/src/server.js",
+  "scripts": {
+    "build": "npm --prefix backend install && npm --prefix frontend install && npm --prefix frontend run build",
+    "start": "node backend/src/server.js",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "install:all": "npm --prefix backend install && npm --prefix frontend install"
+  },
+  "keywords": [
+    "travel-planner",
+    "budget-travel",
+    "sustainable-tourism",
+    "sdg-8",
+    "sdg-12",
+    "react",
+    "vite",
+    "express",
+    "leaflet"
+  ],
+  "author": "TripMate Team",
+  "license": "MIT"
+}
